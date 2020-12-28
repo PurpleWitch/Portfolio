@@ -1,8 +1,11 @@
 FROM python:3.9
-ENV PYTHONUNBUFFERED 1
-WORKDIR /app/api
-COPY requirements.txt ./
+
+EXPOSE 9000
+
+ADD . /Server
+
+WORKDIR /Server
+
 RUN pip install -r requirements.txt
-COPY . ./
-EXPOSE 8000
+
 CMD ["python", "app.py"]
