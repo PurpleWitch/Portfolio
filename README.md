@@ -1,4 +1,6 @@
 # Portfolio
-- pipenv shell
-- django-admin startproject Portfolio
-- python manage.py startapp api
+- Hello
+- It's me
+- I've been wondering
+- If you want to visit my portfolio
+- [Hamdallah Fatayer]()

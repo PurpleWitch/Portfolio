@@ -6,7 +6,7 @@ import db
 app = Flask(__name__)
 
 # get response for landing page
-@app.route('/', methods=['GET'])
+@app.route('/db', methods=['GET'])
 def Hello():
     return "Hello!"
 
