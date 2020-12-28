@@ -6,7 +6,7 @@ import db
 app = Flask(__name__)
 
 # get response for landing page
-@app.route('/db', methods=['GET'])
+@app.route('/', methods=['GET'])
 def Hello():
     return "Hello!"
 
@@ -21,4 +21,4 @@ def test():
 
 # run the flask app
 if __name__ == '__main__':
-    app.run(port=8000, debug=True)
+    app.run(port=9000)
