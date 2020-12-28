@@ -9,13 +9,13 @@
 
 
 ## New code lines used
-```docker ps```
-```docker build . -t imagename```
-```docker tag imagename user/imagename```
-```docker push user/imagename```
-```docker kill containername```
+- ```docker ps```
+- ```docker build . -t imagename```
+- ```docker tag imagename user/imagename```
+- ```docker push user/imagename```
+- ```docker kill containername```
 
-```chmod 400 keyname.pem```
-```ssh -i keyname.pem ec2-user@publicDNS```
-```sudo systemctl start docker```
-```sudo docker run -d -p 8000:8000 user/imagename```
+- ```chmod 400 keyname.pem```
+- ```ssh -i keyname.pem ec2-user@publicDNS```
+- ```sudo systemctl start docker```
+- ```sudo docker run -d -p 8000:8000 user/imagename```
