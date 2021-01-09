@@ -7534,7 +7534,10 @@ button.bg-dark:focus {
   margin-right: 0.5rem !important;
 }
 
-.mb-2,
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+  color:lime;
+}
 .my-2 {
   margin-bottom: 0.5rem !important;
 }
@@ -10142,4 +10145,17 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.flip-image{
+  position: absolute;
+  z-index:1
+}
+.flip-image:hover{
+  opacity: 0;
+  transition: 1s;
+}
+.rate{
+  font-size:70px;
+  color:royalblue;
 }

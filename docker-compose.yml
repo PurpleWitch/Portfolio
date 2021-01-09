@@ -1,0 +1,12 @@
+version: "2"
+services:
+  database:
+    build: ./Database
+    ports: 
+      - 8000:8000
+  portfolio:
+    build: ./Portfolio
+    ports: 
+      - 80:80
+    depends_on: 
+      - database
