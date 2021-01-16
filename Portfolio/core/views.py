@@ -6,4 +6,6 @@ class Index(View):
 
     def get(self, request):
         return render(request, self.template)
-        
+
+# @api_view(['GET'])
+# def index(request):

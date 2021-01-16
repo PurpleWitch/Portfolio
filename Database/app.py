@@ -1,23 +1,25 @@
 from flask import Flask, request, jsonify
+from bson import json_util, ObjectId
+from flask_cors import CORS
+import json
 import os
 import db
 
 # define app as flask
 app = Flask(__name__)
 
-# get response for landing page
+# enables CORS
+cors = CORS(app)
+
+# get views from database
 @app.route('/', methods=['GET'])
-def Hello():
-    return "Hello!"
+def Views():
+    views=db.db.collection.find_one({"views":"views"})
+    db.db.collection.update_one({"views": "views"},{'$set':{"count": views['count']+1}})
+    return json.loads(json_util.dumps(views))
 
 # locate the directory of the app file
 basedir = os.path.abspath(os.path.dirname(__file__))
-
-# database status test route
-@app.route("/test")
-def test():
-    db.db.collection.insert_one({"database": "online"})
-    return "Connected to the database!"
 
 # run the flask app
 if __name__ == '__main__':
