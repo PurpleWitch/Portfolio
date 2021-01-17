@@ -15,8 +15,8 @@
 - ```docker push user/imagename```
 - ```docker kill containername```
 
-```chmod 400 keyname.pem```
-```scp -r -i keyname.pem ./path/to/docker-compose ec2-user@publicIP:~/```
-```ssh -i keyname.pem ec2-user@publicDNS```
-```sudo systemctl start docker```
-```sudo docker run -d -p 8000:8000 user/imagename```
+- ```chmod 400 keyname.pem```
+- ```scp -r -i keyname.pem ./path/to/docker-compose ec2-user@publicIP:~/```
+- ```ssh -i keyname.pem ec2-user@publicDNS```
+- ```sudo systemctl start docker```
+- ```sudo docker run -d -p 8000:8000 user/imagename```
