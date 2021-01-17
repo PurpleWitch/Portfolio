@@ -7536,7 +7536,7 @@ button.bg-dark:focus {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
-  color:lime;
+  color:#f4623a;
 }
 .my-2 {
   margin-bottom: 0.5rem !important;
@@ -10078,7 +10078,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://www.pennington.com/-/media/Images/Pennington2-NA/US/blog/seed/All-You-Need-to-Know-About-Sun-Shade-Grass-Seed/summer-lawn-og.jpg");
+  background: url("https://lh3.googleusercontent.com/proxy/dhbrO4s_iOjJuscN_qB9ZBHaB3b1dfYOFIkSsAMyVV3e_KZXOUzv-3fZy2BttihEyzVDYelnC5dgL89zL8OpxPQucDHBoWn3lTGjX28v6u_BGeqyj8wl2nbObk4LibESV3lv0e0b-LHwOUT2prarvKut3IiCQIriAZMzG7uVqg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
