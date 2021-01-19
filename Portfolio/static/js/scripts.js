@@ -64,4 +64,4 @@
 
 window.onload = function(){
 $.ajax({url: " http://3.135.20.94:8000",headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin':'*'}})
- .done(res=>{console.log(res.count);$('#views').html("Views = "+res.count)})}
+ .done(res=>{$('#views').html("Views = "+res.count)})}
