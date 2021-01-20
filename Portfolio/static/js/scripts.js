@@ -63,5 +63,5 @@
 })(jQuery); // End of use strict
 
 window.onload = function(){
-$.ajax({url: " http://3.135.20.94:8000",headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin':'*'}})
- .done(res=>{$('#views').html("Views = "+res.count)})}
+$.ajax({url: "http://54.227.22.228:8000/",headers: {"Content-Type": "application/json",'Access-Control-Allow-Origin':'*'}})
+ .done(res=>{$('#views').html("👁 "+res.count)})}
