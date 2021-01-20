@@ -16,7 +16,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange:#f4623a;
+  --orange: #f4623a;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary:#f4623a;
+  --primary: #f4623a;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -10030,10 +10030,10 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: blue;
+  color: #007bff;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: blue !important;
+  color: #007bff !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10064,13 +10064,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: blue;
+    color: #007bff;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: blue;
+    color: #007bff;
   }
 }
 
@@ -10171,7 +10171,7 @@ header.masthead header.masthead2 h1 {
 }
 .rate{
   font-size:50px;
-  color:royalblue;
+  color:#007bff;
 }
 
 /* scrollbar */
