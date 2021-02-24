@@ -31,6 +31,6 @@
 - ```sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose```
 - ```sudo service docker restart```
 - ubuntu run docker
-- ```sudo docker run -d -p 8000:80 user/imagename```
+- ```sudo docker run -d -p 80:8000 user/imagename```
 - ubuntu run docker compose
 - ```sudo docker-compose up --build```
