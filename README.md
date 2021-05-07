@@ -3,7 +3,7 @@
 - It's me
 - I've been wondering
 - If you want to visit my portfolio
-- [Hamdallah Fatayer](http://54.227.22.228//)
+- [Hamdallah Fatayer](http://54.227.22.228)
 - [Resume](https://drive.google.com/file/d/1QhxyIwPO_ka_cgSjsZpjUd3bRYrobIJH/view?usp=sharing)
 
 [![pic](https://i.imgur.com/nqobfru.png)](http://3.135.20.94/)
